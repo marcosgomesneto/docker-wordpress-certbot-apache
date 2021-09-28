@@ -1,2 +1,4 @@
 /certbot/letsencrypt/*
 !/certbot/letsencrypt/options-ssl-apache.conf
+/muscleboss-website
+/muscleboss_2020_db.sql

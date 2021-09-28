@@ -16,10 +16,12 @@ services:
       WORDPRESS_TABLE_PREFIX: ${DB_PREFIX}
     volumes:
       - wordpress:/var/www/html
+      - ${CONTENT_FOLDER}:/var/www/html/wp-content
       - ./certbot/letsencrypt:/etc/letsencrypt
   db:
     image: mysql:5.7
     restart: always
+    container_name: ${NAME}_db
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
       MYSQL_USER: ${DB_USER}
