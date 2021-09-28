@@ -1,0 +1,2 @@
+/certbot/letsencrypt/*
+!/certbot/letsencrypt/options-ssl-apache.conf
