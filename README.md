@@ -11,6 +11,15 @@ Rename and edit .env.example file
 mv .env.example .env
 ```
 
+### Config apache .conf files
+
+Edit .conf files
+
+```bash
+./wordpress/000-default.conf
+./wordpress/default-ssl.conf
+```
+
 ### Build image with docker-compose
 
 ```bash
