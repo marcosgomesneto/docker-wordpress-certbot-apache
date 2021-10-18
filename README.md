@@ -13,7 +13,7 @@ mv .env.example .env
 
 ### Config apache .conf files
 
-Edit .conf files
+Edit .conf files with your domain
 
 ```bash
 ./wordpress/000-default.conf
